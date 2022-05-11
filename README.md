@@ -1,6 +1,6 @@
-Sitio web donde la gente puede aprender tips de desarrollo frontend y fundamentos
+Sitio web donde la gente puede aprender diferentes temas propuestos por la universidad central
 ===
-Debe explicar temas de las siguientes herramientas 
+Por ahora tiene los siguientes cursos 
 * HTML+CSS 
 * LOGICA Y ALGORITMIA 
 *  JS 
