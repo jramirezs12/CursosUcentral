@@ -1,0 +1,11 @@
+* {
+    font-family: 'Otomanopee One', sans-serif;   
+}
+body {
+    background-color: #202124;
+    color: #e8eaed;
+}
+.header {
+    border-bottom: 2px solid #e8eaed;
+    padding: 1em;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/boostrap.css">
+
+</head>
+
+<body>
+
+    <header class="header widget">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a href="../index.html" class="navbar-brand">STARK TEAM</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <div class="dropdown dropdown-menu-end text-end">
+                            <a class=" nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="../assets/img/user.png" width="5%" class="me-3" alt="imagen usuario" />
+                                <span id="fullname">Juan Ramirez</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end bg-dark" aria-labelledby="navbarDropdown">
+                                <a href="#" id="btnSalir" class="nav-link">
+                                    <i class="fas fa-star"></i> Salir
+                                </a>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex">
+                    <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="./lobby.html" class="nav-link"><i class="fas fa-star"></i>
+                                    HTML + CSS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./logic.html" class="nav-link"><i class="fas fa-star"></i> LOGICA Y
+                                    ALGORITMIA
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./js.html" class="nav-link"><i class="fas fa-star"></i>
+                                    JS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./Boostrap.html" class="nav-link"><i class="fas fa-star"></i>
+                                    Boostrap
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./repositorios.html" class="nav-link"><i class="fas fa-star"></i>
+                                    Repositorios
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./scrum.html" class="nav-link"><i class="fas fa-star"></i>
+                                    Scrum
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./califications.html" class="nav-link"><i class="fas fa-star"></i>
+                                    Certificaciones
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://stark-team-fedesoft.github.io/millonario/" class="nav-link"><i
+                                        class="fas fa-star"></i>
+                                    Nuevo reto
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid title widget">
+        <h1>Boostrap</h1>
+    </section>
+    <section class="banner widget widget">
+        <img src="../assets/img/Bootstrap2.jpeg" class="img-fluid" alt="banner - html -css">
+    </section>
+    <section class="container-fluid contenido widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3 widget" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active widget" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">¿qué es Boostrap?</button>
+                            <button class="nav-link widget" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">¿Cómo funciona Bootstrap?</button>
+                            <button class="nav-link widget" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">¿Cuál es la funcionalidad de Bootstrap?</button>
+                            <button class="nav-link widget" id="v-pills-git-tab" data-bs-toggle="pill" data-bs-target="#v-pills-git" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Biblioteca de componentes</button>
+                            <button class="nav-link widget" id="v-pills-inst-tab" data-bs-toggle="pill" data-bs-target="#v-pills-inst" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">¿Cómo configurar y usar Bootstrap?</button>
+                        </div>
+                        <div class="tab-content widget" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active widget" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <h2 class="text-center"> ¿Qué es Boostrap? </h2>
+                                <div class="justify-content-center text-center">
+                                    <img src="../assets/img/Qué-es-Bootstrap.jpg" class="img-fluid" alt="html">
+                                </div>
+
+                                <p class="texto-contenido">
+                                    Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario. ¡Aprende todo sobre esta tecnología y cómo utilizarla!
+                                    <br>
+                                    <br>
+                                    El framework combina CSS y JavaScript para estilizar los elementos de una página HTML. Permite mucho más que, simplemente, cambiar el color de los botones y los enlaces.
+                                    <br>
+                                    Esta es una herramienta que proporciona interactividad en la página, por lo que ofrece una serie de componentes que facilitan la comunicación con el usuario, como menús de navegación, controles de página, barras de progreso y más.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade " id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <h2 class="text-center"> ¿Cómo funciona Bootstrap? </h2>
+                                <div class="justify-content-center text-center">
+                                    <img src="../assets/img/boostrap4.jpg" class="img-fluid" alt="html">
+                                </div>
+
+                                <p class="texto-contenido">
+
+                                    Bootstrap está constituido por una serie de archivos CSS y JavaScript responsables de asignar características específicas a los elementos de la página.
+
+                                    Hay un archivo principal llamado bootstrap.css, que contiene una definición para todos los estilos utilizados. Básicamente, la estructura del framework se compone de dos directorios:
+                                    <br>
+                                    <br>
+                                    <b>css:</b> contiene los archivos necesarios para la estilización de los elementos y una alternativa al tema original;
+                                    <br>
+                                    <b>js:</b> contiene la parte posterior del archivo bootstrap.js (original y minificado), responsable de la ejecución de aplicaciones de estilo que requieren manipulación interactiva.
+                                    <br>
+                                    <br>
+                                    Para asignarle una característica a un elemento, simplemente debemos informar la clase correspondiente en la propiedad “class” del elemento que será estilizado
+                                </p>
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                <h2 class="text-center"> ¿Cuál es la funcionalidad de Bootstrap?</h2>
+
+                                <div class="justify-content-center text-center">
+                                    
+                                </div>
+                                <p class="texto-contenido">
+
+                                    Aun ofreciendo todas las posibilidades que ofrece Bootstrap a la hora de crear interfaces web, los diseños creados con Bootstrap son simples, limpios e intuitivos, esto les da agilidad a la hora de cargar y al adaptarse a otros dispositivos. El Framework trae varios elementos con estilos predefinidos fáciles de configurar: Botones, Menús desplegables, Formularios incluyendo todos sus elementos e integración jQuery para ofrecer ventanas y tooltips dinámicos.
+
+                                </p>
+                            </div>
+                            <div class="tab-pane fade " id="v-pills-git" role="tabpanel" aria-labelledby="v-pills-git-tab">
+                                <h2 class="text-center"> Git </h2>
+                                <div class="justify-content-center text-center">
+                                    <img src="../assets/img/boostrap12.PNG" class="img-fluid" alt="html">
+                                </div>
+
+                                <p class="texto-contenido">
+
+                                    Más de una docena de componentes reutilizables creados para proporcionar iconografía, menús desplegables, grupos de entrada, navegación, alertas y mucho más.
+                                    <br>
+                                    Los componentes de Bootstrap se construyen en gran medida con una nomenclatura de modificador de base. Agrupamos tantas propiedades compartidas como sea posible en una clase base, como .btn, y luego agrupamos estilos individuales para cada variante en clases modificadoras, como .btn-primaryo .btn-success.
+                                    <br>
+                                    Para construir nuestras clases de modificadores, usamos los @eachbucles de Sass para iterar sobre un mapa de Sass. Esto es especialmente útil para generar variantes de un componente por nuestro $theme-colorsy crear variantes receptivas para cada punto de interrupción. A medida que personalice estos mapas de Sass y los vuelva a compilar, verá automáticamente sus cambios reflejados en estos bucles.
+                                </p>
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-inst" role="tabpanel" aria-labelledby="v-pills-inst-tab">
+                                <h2 class="text-center"> ¿Cómo configurar y usar Bootstrap?</h2>
+                                <p class="texto-contenido">
+                                    
+                                    CSS
+                                    <br>
+                                    Copie y pegue la hoja de estilo link en su  head antes de todas las demás hojas de estilo para cargar nuestro CSS.
+                                    <br>
+                                    JS
+                                    <br>
+                                    Muchos de nuestros componentes requieren el uso de JavaScript para funcionar. Específicamente, requieren nuestros propios complementos de JavaScript y Popper . Coloque uno de los siguientes script s cerca del final de sus páginas, justo antes de la  body etiqueta de cierre , para habilitarlos.
+                                    <br>
+                                    Manojo
+                                    <br>
+                                    Incluya todos los complementos y dependencias de Bootstrap JavaScript con uno de nuestros dos paquetes. Ambos bootstrap.bundle.jse bootstrap.bundle.min.jsincluyen Popper para nuestra información sobre herramientas y ventanas emergentes. Para obtener más información sobre lo que se incluye en Bootstrap, consulte nuestra sección de contenido .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/lobby.js"></script>
+</body>
+
+</html>
