@@ -2,3 +2,24 @@
     padding-top: 2rem;
     padding-top: 2.5rem;
 }
+
+.datosNaves {
+    margin-top: 140px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.card {
+    background-color: #ffffff;
+    color: black;
+}
+
+.card-title {
+    color: rgba(122, 122, 122, 0.736);
+}

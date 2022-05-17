@@ -2,15 +2,17 @@
     padding: 2em;
     text-align: center;
 }
+
 .contenido {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
 .texto-contenido {
-    padding: 1em;
+    padding: 4em;
 }
 
-img{
-    display:block;
-margin:auto;
+img {
+    display: block;
+    margin: auto;
 }
